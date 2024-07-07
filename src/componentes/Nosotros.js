@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/Nosotros.css'
+import '../App.css'
+
 
 import fotoartista from '../imagenes/foto4.jpeg';
 import taduvazquez from '../imagenes/foto1.jpeg';

@@ -10,8 +10,8 @@ import Contacto from './componentes/Contacto';
 
 import {Routes, Route, BrowserRouter as Router} from "react-router-dom";
 
-import AOS from 'aos';
 import 'aos/dist/aos.css';  
+import ScrollToTop from './componentes/Scrolltotop';
 
 
 
@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
       <header>
         <Menu />
         <Routes>

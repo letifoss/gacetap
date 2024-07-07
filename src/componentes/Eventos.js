@@ -1,4 +1,6 @@
 import React from "react";
+import '../App.css'
+
 import AOS from "aos";
 import { useEffect } from "react";
 

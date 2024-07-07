@@ -19,3 +19,19 @@ form{
 .proyecto:not(:hover) {
     background-color: white;
   }
+
+
+  
+@media screen and (max-width: 678px) {
+ 
+    form{
+        width: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {  
+    form{
+        width: 270px;
+    }
+  }
+  

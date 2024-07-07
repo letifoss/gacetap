@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Contacto.css";
+import '../App.css'
+
 import AOS from "aos";
 import { useEffect } from "react";
 

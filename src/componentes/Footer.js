@@ -1,5 +1,9 @@
 import React from "react";
 import '../styles/Footer.css'
+import '../App.css'
+
+import iconig from '../imagenes/iconig.png';
+import icontiktok from '../imagenes/icontiktok.png';
 
 function Footer(){
     return(
@@ -13,8 +17,8 @@ function Footer(){
                 <a href="">Contacto</a>
             </div>
             <div class="d-flex align-items-center">
-                <a href="" class="p-3"><img src="./imagenes/iconig.png" alt="logoinstagram" width="30px" class="footericon" /></a>
-                <a href="" class="p-3"><img src="./imagenes/icontiktok.png" alt="logotiktok" width="30px" class="footericon" /></a>
+                <a href="" class="p-3"><img src={iconig} alt="logoinstagram" width="30px" class="footericon" /></a>
+                <a href="" class="p-3"><img src={icontiktok} alt="logotiktok" width="30px" class="footericon" /></a>
             </div>
         </footer>
         </>

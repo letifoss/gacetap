@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Menu.css"
+import '../App.css'
+
 import { Link } from "react-router-dom";
 
 import logomenu from '../imagenes/LOGO-BLANCO-02.png'
@@ -9,7 +11,6 @@ function Menu(){
     return (
         <div class="d-flex flex-row justify-content-around">
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <img class="navbar-brand" src={logomenu}alt="logo gaceta" width="90px" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
