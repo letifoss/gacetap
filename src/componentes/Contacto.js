@@ -39,7 +39,7 @@ function Contacto() {
   };
 
   return (
-    <div className="d-flex flex-column align-items-center justify-content-center text">
+    <div className="d-flex flex-column align-items-center justify-content-center text banner">
       {!enviado ? (
         <>
           <h3 className="m-5 text-white text-center">

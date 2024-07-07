@@ -15,7 +15,7 @@ function Nosotros(props){
 
     return (
     <>
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center text">
         <h3 className="text-white text-center mt-5 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus, at nemo laboriosam accusamus laborum quae officia delectus ex velit dolorum. Quaerat aliquam tenetur placeat cupiditate similique, dolore iure minima!</h3>
     </div>
     <div className="banner">

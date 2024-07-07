@@ -9,6 +9,7 @@ form{
     font-weight: bold;
     transition: background-color 1s ease;
     width: 200px;
+    color: black;
 }
 .submit:hover{
     box-shadow: 0 0 10px white;

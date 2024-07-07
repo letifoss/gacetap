@@ -14,10 +14,10 @@ function Home() {
   }, []);
 
   return (
-    <>
+    <div className='banner'>
       <Inicio />
       <Imagelink />
-    </>
+    </div>
   );
 }
 
