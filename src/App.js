@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Menu from './componentes/Menu';
+import Home from './componentes/Home';
+import Footer from './componentes/Footer'
+import Nosotros from './componentes/Nosotros';
+import Eventos from './componentes/Eventos';
+import Lanzamientos from './componentes/Lanzamientos';
+import Contacto from './componentes/Contacto';
+
+import {Routes, Route, BrowserRouter as Router} from "react-router-dom";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';  
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Router>
+      <header>
+        <Menu />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/eventos" element={<Eventos />} />
+          <Route path="/lanzamientos" element={<Lanzamientos />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
       </header>
+      <footer>
+        <Footer />
+      </footer>
+      </Router>
     </div>
   );
 }
