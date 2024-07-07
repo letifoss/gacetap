@@ -8,6 +8,7 @@ form{
     background-color: rgb(182, 182, 182);
     font-weight: bold;
     transition: background-color 1s ease;
+    width: 200px;
 }
 .submit:hover{
     box-shadow: 0 0 10px white;
@@ -16,7 +17,7 @@ form{
     transition-duration: 0.7s;
     
 }
-.proyecto:not(:hover) {
+.submit:not(:hover) {
     background-color: white;
   }
 
