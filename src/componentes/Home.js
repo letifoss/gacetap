@@ -8,12 +8,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Home() {
+
   useEffect(() => {
-    AOS.init({ 
-      once: false,
-      delay: 20
-    });
-    AOS.refresh(); 
+    AOS.refresh();
   }, []);
 
   return (

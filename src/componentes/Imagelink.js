@@ -11,10 +11,11 @@ import foto3 from '../imagenes/foto3.jpeg';
 import foto4 from '../imagenes/foto4.jpeg';
 
 function Imagelink() {
-  useEffect(() => {
-    AOS.refresh(); 
-  }, []);
 
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
+  
   return (
     <div className="d-flex justify-content-evenly mb-5 flex-wrap align-content-center">
     <Link to="/eventos" className="imagelink">

@@ -15,12 +15,12 @@ function Nosotros(props){
 
     return (
     <>
-    <div class="d-flex justify-content-center">
-        <h3 class="text-white text-center mt-5 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus, at nemo laboriosam accusamus laborum quae officia delectus ex velit dolorum. Quaerat aliquam tenetur placeat cupiditate similique, dolore iure minima!</h3>
+    <div className="d-flex justify-content-center">
+        <h3 className="text-white text-center mt-5 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minus, at nemo laboriosam accusamus laborum quae officia delectus ex velit dolorum. Quaerat aliquam tenetur placeat cupiditate similique, dolore iure minima!</h3>
     </div>
     <div className="banner">
-    <h2 class="text-center text-white mt-5 mb-5">NUESTRO EQUIPO</h2>
-    <div class="d-flex align-items-center justify-content-center">
+    <h2 className="text-center text-white mt-5 mb-5">NUESTRO EQUIPO</h2>
+    <div className="d-flex align-items-center justify-content-center flex-wrap">
         <Equipo 
         nombre='FOSSE'
         imagen={fosse}
@@ -32,11 +32,11 @@ function Nosotros(props){
         time={1700}
         profesion='Productor'/>
     </div>
-    <div class="d-flex flex-column align-items-center justify-content-center mt-5">
-        <div class="d-flex justify-content-center w-100 " data-aos="fade-right">
-            <h3 class="text-center text-white mt-5 mb-5">Conocé a nuestros artistas</h3>
+    <div className="d-flex flex-column align-items-center justify-content-center mt-5 border-0">
+        <div className="d-flex justify-content-center w-100 " data-aos="fade-right">
+            <h3 className="text-center text-white mt-5 mb-5">Conocé a nuestros artistas</h3>
         </div>
-        <div class="d-flex justify-content-center text-white flex-wrap bg-grey">
+        <div className="d-flex justify-content-center text-white flex-wrap bg-grey">
             <Artista 
             nombre='Ramma'
             imagen={fotoartista}
