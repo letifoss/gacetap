@@ -4,7 +4,6 @@ import '../App.css'
 
 import { Link } from "react-router-dom";
 
-import logomenu from '../imagenes/LOGO-BLANCO-02.png'
 
 function Menu(){
    
