@@ -25,7 +25,6 @@ function App() {
       once: false,
       delay: 20
     });
-    AOS.refresh();
   }, []);
 
   return (

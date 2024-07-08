@@ -14,8 +14,9 @@ function Lanzamientos(){
 
     return(
     <>
+    <div className="d-flex flex-column align-items-center banner">
     <h3 className="text-white mt-4 mb-4 text text-center">No te pierdas los últimos lanzamientos!</h3>
-    <div className="d-flex justify-content-center mt-4 text-white flex-wrap banner">
+    <div className="d-flex justify-content-center mt-4 text-white flex-wrap w-75">
         <Nuevolanzamiento 
         link="https://www.youtube.com/embed/moEMEl742X0?si=vmssoGeyGE94bHiO"
         artista="Valuto"
@@ -31,6 +32,22 @@ function Lanzamientos(){
         artista="Valuto"
         titulo="No soy yo"
         />
+        <Nuevolanzamiento
+        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
+        artista="Valuto"
+        titulo="No soy yo"
+        />
+        <Nuevolanzamiento
+        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
+        artista="Valuto"
+        titulo="No soy yo"
+        />
+        <Nuevolanzamiento
+        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
+        artista="Valuto"
+        titulo="No soy yo"
+        />
+    </div>
     </div>
     </>
     )

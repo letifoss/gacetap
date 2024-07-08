@@ -8,11 +8,7 @@ import 'aos/dist/aos.css';
 import logoprincipal from '../imagenes/logoblanco700.png';
 
 function Inicio() {
-  
-  useEffect(() => {
-    AOS.refresh();
-  }, []);
-  
+
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <section className="logo">

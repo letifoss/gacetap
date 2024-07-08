@@ -8,8 +8,9 @@ form{
     background-color: rgb(182, 182, 182);
     font-weight: bold;
     transition: background-color 1s ease;
-    width: 200px;
+    width: 140px;
     color: black;
+    margin-left: 2px;
 }
 .submit:hover{
     box-shadow: 0 0 10px white;
