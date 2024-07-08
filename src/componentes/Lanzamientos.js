@@ -15,7 +15,6 @@ function Lanzamientos(){
     return(
     <>
     <h3 className="text-white mt-4 mb-4 text text-center">No te pierdas los últimos lanzamientos!</h3>
-
     <div className="d-flex justify-content-center mt-4 text-white flex-wrap banner">
         <Nuevolanzamiento 
         link="https://www.youtube.com/embed/moEMEl742X0?si=vmssoGeyGE94bHiO"
