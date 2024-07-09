@@ -10,18 +10,7 @@
     filter: drop-shadow(0 0 3px  rgb(105, 105, 105));
 }
 
-    /* @keyframes start {
-    from{
-        opacity: 0;
-        transform: rotate(180deg);
-    }
-    to {
-        opacity: 1;
-    }
-    }
-    */
-
-     @keyframes start {
+    @keyframes start {
     0%{
         transform:scale(0.4);
     }
@@ -36,6 +25,7 @@
     animation-name: texto;
     animation-duration: 2s;
 }    
+
 @keyframes texto {
     from{
      opacity: 0;
@@ -55,38 +45,6 @@
 .presentacion h1{
     font-size: 28px;
 }
- /* view-timeline-name: --pres;
-    view-timeline-axis: block;
-
-    animation-timeline: --pres;
-    animation-name: presentacion;
-    animation-range: entry 0% cover 50%;
-
-
-}
-
-@keyframes presentacion {
-    from{
-        margin-left: 100%;
-    }
-    to{
-        margin-left: 0;
-
-    }
-
-
-}
-/*  
-    view-timeline-name: --text;
-    view-timeline-axis: block;
-
-    animation-timeline: --text;
-    animation-name: texto;
-    animation-range: entry 20% cover 40%;
-    animation-fill-mode: both; 
-*/
-
-
 
 .p-card-eventos{
     width: 350px;
@@ -100,57 +58,15 @@
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgb(100, 100, 100);
 }
+
 .bi{
     font-size: 22px;
 }
+
 .carrousel{
     width: 500px;
     height: 600px;
 }
-
-.foto1{
-    view-timeline-name: --images;
-    view-timeline-axis: block;
-
-    animation-timeline: --images;
-    animation-name: presentacion;
-    animation-range: entry 25% cover 50%;
-    animation-fill-mode: both; 
-}
-
-@keyframes presentacion {
-    from{
-        opacity: 0;
-    }
-    
-    to{
-        opacity: 1;
-    }
-
-}
-
-.foto2{
-
-    view-timeline-name: --images;
-    view-timeline-axis: block;
-
-    animation-timeline: --images;
-    animation-name: presentacion;
-    animation-range: entry 30% cover 50%;
-    animation-fill-mode: both; 
-
-}
-
-.foto3{
-    view-timeline-name: --images;
-    view-timeline-axis: block;
-
-    animation-timeline: --images;
-    animation-name: presentacion;
-    animation-range: entry 40% cover 70%;
-    animation-fill-mode: both; 
-}
-
 
 .image-shadow{
     box-shadow: 0 0 2px rgb(17, 17, 17);

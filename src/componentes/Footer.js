@@ -1,29 +1,31 @@
 import React from "react";
-import '../styles/Footer.css'
-import '../App.css'
-import { Link } from "react-router-dom";
+import '../styles/Footer.css';
+import '../App.css';
+import { NavLink } from "react-router-dom"; // Importa NavLink en lugar de Link
 
 import iconig from '../imagenes/iconig.png';
 import icontiktok from '../imagenes/icontiktok.png';
 
+import Scrolltotop from './Scrolltotop'; 
+
 function Footer(){
     return(
-        <>
         <footer className="footer d-flex justify-content-around">
             <div className="d-flex flex-column justify-content-center">
-                <Link to="/" className="mb-3"><b> Volver al inicio </b></Link>
-                <Link to="/nosotros">Sobre nosotros</Link>
-                <Link to="/eventos">Eventos</Link>
-                <Link to="/lanzamientos">Lanzamientos</Link>
-                <Link to="/contacto">Contacto</Link>
+                <a href="#" onClick={() => window.scrollTo(0, 0)} className="nav-link custom-link mb-3">
+                    Volver al inicio
+                </a>
+                <NavLink to="/nosotros" activeClassName="active">Sobre nosotros</NavLink>
+                <NavLink to="/eventos" activeClassName="active">Eventos</NavLink>
+                <NavLink to="/lanzamientos" activeClassName="active">Lanzamientos</NavLink>
+                <NavLink to="/contacto" activeClassName="active">Contacto</NavLink>
             </div>
             <div className="d-flex align-items-center">
-                <a href="https://www.instagram.com/gacetaplay/" target="_blank" className="p-3"><img src={iconig} alt="logoinstagram" width="30px" className="footericon" /></a>
-                <a href="https://www.tiktok.com/@gaceta.play" target="_blank" className="p-3"><img src={icontiktok} alt="logotiktok" width="30px" className="footericon" /></a>
+                <a href="https://www.instagram.com/gacetaplay/" target="_blank" rel="noopener noreferrer" className="p-3"><img src={iconig} alt="logoinstagram" width="30px" className="footericon" /></a>
+                <a href="https://www.tiktok.com/@gaceta.play" target="_blank" rel="noopener noreferrer" className="p-3"><img src={icontiktok} alt="logotiktok" width="30px" className="footericon" /></a>
             </div>
         </footer>
-        </>
-    )
+    );
 }
 
 export default Footer;

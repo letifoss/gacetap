@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import '../styles/Home.css'
-
-import 'aos/dist/aos.css';
+import logoprincipal from '../imagenes/logoblanco700.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
@@ -13,6 +12,7 @@ import foto4 from '../imagenes/foto4.jpeg';
 function Imagelink() {
 
   return (
+    <>
     <div className="d-flex justify-content-evenly mb-5 flex-wrap align-content-center">
     <Link to="/eventos" className="imagelink">
       <div className="d-flex justify-content-center align-items-center position-relative" data-aos="fade-right">
@@ -41,6 +41,8 @@ function Imagelink() {
         </div>
       </Link>
     </div>
+    
+    </>
   );
 }
 
