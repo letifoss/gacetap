@@ -11,11 +11,10 @@ import logoprincipal from '../imagenes/logoblanco700.png';
 
 function Home() {
   useEffect(() => {
-
     AOS.init({
       offset: 200,
       once: false,
-      delay: 20
+      delay: 150
     });
 
     return () => {
@@ -23,9 +22,16 @@ function Home() {
     };
   }, []);
 
+  useEffect(() => {
+    const image = new Image();
+    image.src = logoprincipal;
+    image.onload = () => {
+      console.log("Imagen precargada:", logoprincipal);
+    };
+  }, []);
+
   return (
     <div className='banner'>
-      <link rel="preload" href={logoprincipal} as="image" />
       <Imagestart />
       <Inicio />
       <Imagelink />

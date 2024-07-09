@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";  // Importa NavLink en lugar de Link
+import { NavLink } from "react-router-dom";
 import "../styles/Menu.css";
 import "../App.css";
 
@@ -10,8 +10,8 @@ function Menu() {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
+          data-bs-toggle="collapse"  
+          data-bs-target="#navbarNav"  
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
