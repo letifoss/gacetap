@@ -54,19 +54,19 @@ function Contacto() {
             <input
               type="text"
               placeholder="Nombre completo"
-              className="m-1 p-1"
+              className="m-1 p-2"
               name="name"
             />
             <input
               type="email"
               placeholder="E-mail"
-              className="m-1 p-1"
+              className="m-1 p-2"
               name="email"
             />
             <textarea
               placeholder="Mensaje"
               rows="6"
-              className="m-1 p-1"
+              className="m-1 p-2"
               name="subject"
             ></textarea>
             <input type="hidden" name="_next" value="/contacto" />
@@ -82,7 +82,7 @@ function Contacto() {
             Gracias por tu mensaje! Nos comunicaremos contigo a la brevedad.
           </div>
           <Link to="/">
-            <h5 className="text-white text-center">Volver al inicio</h5>
+            <h5 className="text-white text-center link-dark">Volver al inicio</h5>
           </Link>
         </div>
       )}

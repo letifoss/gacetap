@@ -32,28 +32,6 @@ function Nosotros(props){
         time={1700}
         profesion='Productor'/>
     </div>
-    <div className="d-flex flex-column align-items-center justify-content-center mt-5 border-0">
-        <div className="d-flex justify-content-center w-100 " data-aos="fade-right">
-            <h3 className="text-center text-white mt-5 mb-5">Conocé a nuestros artistas</h3>
-        </div>
-        <div className="d-flex justify-content-center text-white flex-wrap bg-grey">
-            <Artista 
-            nombre='Ramma'
-            imagen={fotoartista}
-            time='1000'
-            />
-            <Artista 
-            nombre='Wave'
-            imagen={fotoartista}
-            time='1800'
-            />
-            <Artista 
-            nombre='Fosse'
-            imagen={fotoartista}
-            time='2100'
-            />
-        </div>
-    </div>
     </div>
     </>
     )

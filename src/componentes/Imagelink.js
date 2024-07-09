@@ -32,7 +32,7 @@ function Imagelink() {
         </div>
       </div>
       </Link>
-      <Link to="/nosotros" className="imagelink">
+      <Link to="/artistas" className="imagelink">
         <div className="d-flex justify-content-center align-items-center position-relative" data-aos="fade-left">
           <img src={foto4} alt="" width="350px" height="367px" className="m-4 m-md-4 m-sm-4 border-0" />
           <div className="d-flex position-absolute justify-content-center align-items-center p-card-eventos image-shadow">

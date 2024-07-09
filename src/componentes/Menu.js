@@ -31,6 +31,11 @@ function Menu() {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink to="/artistas" className="nav-link" activeClassName="active">
+                ARTISTAS
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink to="/eventos" className="nav-link" activeClassName="active">
                 EVENTOS
               </NavLink>

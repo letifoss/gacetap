@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
 import '../styles/Home.css';
 import '../App.css';
-import foto1 from '../imagenes/foto1.jpeg';
-import foto3 from '../imagenes/foto3.jpeg';
-import foto4 from '../imagenes/foto4.jpeg';
-
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
