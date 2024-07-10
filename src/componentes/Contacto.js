@@ -49,7 +49,7 @@ function Contacto() {
             onSubmit={handleSubmit}
             action="https://formsubmit.co/letifossemale@gmail.com"
             method="POST"
-            className="d-flex flex-column text-dark"
+            className="d-flex flex-column text-dark mb-5"
           >
             <input
               type="text"
