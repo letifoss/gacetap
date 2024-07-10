@@ -21,8 +21,8 @@ function Footer(){
                 <NavLink to="/contacto" activeClassName="active">Contacto</NavLink>
             </div>
             <div className="d-flex align-items-center">
-                <a href="https://www.instagram.com/gacetaplay/" target="_blank" rel="noopener noreferrer" className="p-3"><img src={iconig} alt="logoinstagram" width="30px" className="footericon" /></a>
-                <a href="https://www.tiktok.com/@gaceta.play" target="_blank" rel="noopener noreferrer" className="p-3"><img src={icontiktok} alt="logotiktok" width="30px" className="footericon" /></a>
+                <a href="https://www.instagram.com/gacetaplay/" alt="logo instagram" target="_blank" rel="noopener noreferrer" className="p-3"><img src={iconig} alt="logoinstagram" width="30px" className="footericon" /></a>
+                <a href="https://www.tiktok.com/@gaceta.play" alt="logo tiktok" target="_blank" rel="noopener noreferrer" className="p-3"><img src={icontiktok} alt="logotiktok" width="30px" className="footericon" /></a>
             </div>
         </footer>
     );
