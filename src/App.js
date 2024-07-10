@@ -32,9 +32,7 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        <header>
           <Menu />
-        </header>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />

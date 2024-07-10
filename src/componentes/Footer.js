@@ -12,7 +12,7 @@ function Footer(){
     return(
         <footer className="footer d-flex justify-content-around">
             <div className="d-flex flex-column justify-content-center">
-                <a href="#" onClick={() => window.scrollTo(0, 0)} className="nav-link custom-link mb-3">
+                <a href="#" onClick={() => window.scrollTo(0, 0)} className="mb-3">
                     Volver al inicio
                 </a>
                 <NavLink to="/nosotros" activeClassName="active">Sobre nosotros</NavLink>

@@ -23,6 +23,9 @@ form{
     background-color: white;
   }
 
+a{
+    text-decoration: none;
+}
 
   
 @media screen and (max-width: 678px) {

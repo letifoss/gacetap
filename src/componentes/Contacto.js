@@ -72,7 +72,7 @@ function Contacto() {
             <input type="hidden" name="_next" value="/contacto" />
             <input type="hidden" name="_captcha" value="false" />
             <button type="submit" className="p-2 mt-2 submit" disabled={cargando}>
-              {cargando ? "Enviando... " : "Enviar mensaje"}
+              {cargando ? "Enviando..." : "Enviar mensaje"}
             </button>
           </form>
         </>
@@ -82,7 +82,7 @@ function Contacto() {
             Gracias por tu mensaje! Nos comunicaremos contigo a la brevedad.
           </div>
           <Link to="/">
-            <h5 className="text-white text-center link-dark">Volver al inicio</h5>
+            <h5 className="text-white text-center back">Volver al inicio</h5>
           </Link>
         </div>
       )}

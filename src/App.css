@@ -17,6 +17,7 @@ body{
   background-color: black !important;
   font-family: 'Filetto regular', sans-serif !important;
   color: white;
+  margin: 0;
 }
 
 .contenedor{

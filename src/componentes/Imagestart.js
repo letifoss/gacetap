@@ -5,7 +5,7 @@ function Imagestart(){
 
     return(
         <div className="d-flex flex-column justify-content-center align-items-center">
-        <section className="logo">
+        <section className="logo d-flex flex-column justify-content-center align-items-center">
             <img src={logoprincipal} alt="logo gaceta" />
         </section>
         </div>
