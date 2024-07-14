@@ -12,13 +12,13 @@ function Footer(){
     return(
         <footer className="footer d-flex justify-content-around">
             <div className="d-flex flex-column justify-content-center">
-                <a href="#" onClick={() => window.scrollTo(0, 0)} className="mb-3">
+                <a href="/" className="m-1 mb-3">
                     Volver al inicio
                 </a>
-                <NavLink to="/nosotros" activeClassName="active">Sobre nosotros</NavLink>
-                <NavLink to="/eventos" activeClassName="active">Eventos</NavLink>
-                <NavLink to="/lanzamientos" activeClassName="active">Lanzamientos</NavLink>
-                <NavLink to="/contacto" activeClassName="active">Contacto</NavLink>
+                <NavLink to="/nosotros" activeClassName="active" className="m-1">Sobre nosotros </NavLink>
+                <NavLink to="/eventos" activeClassName="active"  className="m-1">Eventos</NavLink>
+                <NavLink to="/lanzamientos" activeClassName="active" className="m-1">Lanzamientos</NavLink>
+                <NavLink to="/contacto" activeClassName="active" className="m-1">Contacto</NavLink>
             </div>
             <div className="d-flex align-items-center">
                 <a href="https://www.instagram.com/gacetaplay/" alt="logo instagram" target="_blank" rel="noopener noreferrer" className="p-3"><img src={iconig} alt="logoinstagram" width="30px" className="footericon" /></a>
