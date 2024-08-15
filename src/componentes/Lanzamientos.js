@@ -16,36 +16,36 @@ function Lanzamientos(){
     <>
     <div className="d-flex flex-column align-items-center banner">
     <h3 className="text-white mt-4 mb-4 text text-center">No te pierdas los últimos lanzamientos!</h3>
-    <div className="d-flex justify-content-center mt-4 text-white flex-wrap w-75">
+    <div className="d-flex justify-content-center mt-4 text-white flex-wrap w-100">
         <Nuevolanzamiento 
-        link="https://www.youtube.com/embed/moEMEl742X0?si=vmssoGeyGE94bHiO"
-        artista="Valuto"
-        titulo="Nombre de canción" 
+        video="TnVhj2SwKfQ"
+        artista="RAMMA x ARA"
+        titulo="SOMOS EL SHOW" 
         />
         <Nuevolanzamiento 
-        link="https://www.youtube.com/embed/TnVhj2SwKfQ?si=Die4wmgcl_Z5RHGb"
-        artista="Ramma"
-        titulo="Iconicos"
+        video="BhbzlXaeHUk"
+        artista="VALUTO Ft. DAVUS"
+        titulo="CERCA" 
         />
-        <Nuevolanzamiento
-        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
-        artista="Valuto"
-        titulo="No soy yo"
+        <Nuevolanzamiento 
+        video="M-5h9Oj03ew"
+        artista="FOSSE"
+        titulo="ALTURA" 
         />
-        <Nuevolanzamiento
-        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
-        artista="Valuto"
-        titulo="No soy yo"
+        <Nuevolanzamiento 
+        video="4oEGsEpYKEY"
+        artista="ARA"
+        titulo="COMO SOY" 
         />
-        <Nuevolanzamiento
-        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
-        artista="Valuto"
-        titulo="No soy yo"
+        <Nuevolanzamiento 
+        video="jRO59i-h50U"
+        artista="WAVE Ft. KNAK"
+        titulo="COMO ESTAS?" 
         />
-        <Nuevolanzamiento
-        link="https://www.youtube.com/embed/DeMVSBnzsCg?si=kl-UvC95NfI_3GtG"
-        artista="Valuto"
-        titulo="No soy yo"
+        <Nuevolanzamiento 
+        video="NREJtSZN5-U"
+        artista="TADU"
+        titulo="UN MOMENTO Y NADA MÁS" 
         />
     </div>
     </div>

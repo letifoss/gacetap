@@ -42,9 +42,9 @@ function Contacto() {
     <div className="d-flex flex-column align-items-center text banner">
       {!enviado ? (
         <>
-          <h3 className="m-5 text-white text-center">
+          <h2 className="m-5 text-white text-center">
             Si tenés dudas o consultas, contáctanos!
-          </h3>
+          </h2>
           <form
             onSubmit={handleSubmit}
             action="https://formsubmit.co/letifossemale@gmail.com"

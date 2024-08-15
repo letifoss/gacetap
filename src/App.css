@@ -6,7 +6,6 @@
 @font-face {
   font-family: 'Filetto regular';
   src: url('./fonts/Filetto_regular.ttf') format('truetype');
-  font-weight: 600;
   font-style: normal;
 }
 
@@ -26,6 +25,14 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+lite-youtube {
+  height: 380px; 
+  width: 350px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
 
 @media screen and (max-width: 678px) {
 
@@ -66,4 +73,10 @@ body{
   form{
       width: 270px;
   }
+
+  lite-youtube {
+    height: 360px; 
+    width: 330px;
+  }
+  
 }

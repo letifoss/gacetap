@@ -10,15 +10,17 @@ import Scrolltotop from './Scrolltotop';
 
 function Footer(){
     return(
-        <footer className="footer d-flex justify-content-around">
-            <div className="d-flex flex-column justify-content-center">
-                <a href="/" className="m-1 mb-3">
+        <footer className="footer d-flex justify-content-evenly ">
+            <div className="d-flex flex-column flex-sm-column flex-md-column flex-lg-row align-items-center justify-content-center">
+                <a href="/" className="m-1 fw-bold">
                     Volver al inicio
                 </a>
-                <NavLink to="/nosotros" activeClassName="active" className="m-1">Sobre nosotros </NavLink>
-                <NavLink to="/eventos" activeClassName="active"  className="m-1">Eventos</NavLink>
-                <NavLink to="/lanzamientos" activeClassName="active" className="m-1">Lanzamientos</NavLink>
-                <NavLink to="/contacto" activeClassName="active" className="m-1">Contacto</NavLink>
+                <NavLink to="/nosotros" className="p-3">Sobre nosotros </NavLink>
+                <NavLink to="/nosotros" className="p-3">Artistas</NavLink>
+                <NavLink to="/eventos"  className="p-3">Eventos</NavLink>
+                <NavLink to="/lanzamientos" className="p-3">Lanzamientos</NavLink>
+                <NavLink to="/contacto" className="p-3">Contacto</NavLink>   
+                <NavLink to="/contacto" className="p-3 fw-bold">Trabaja con nosotros!</NavLink> 
             </div>
             <div className="d-flex align-items-center">
                 <a href="https://www.instagram.com/gacetaplay/" alt="logo instagram" target="_blank" rel="noopener noreferrer" className="p-3"><img src={iconig} alt="logoinstagram" width="30px" className="footericon" /></a>
